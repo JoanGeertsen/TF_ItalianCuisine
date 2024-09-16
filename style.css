@@ -1,14 +1,17 @@
 @import url('recia.css');
 
 body {
-    font-family: Recia-Bold;
+    font-family: Merriweather;
+    font-weight: bold;
     overflow-x: hidden;
 }
 
 
 footer{
-    font-family: Recia;
+    font-family: Merriweather;
+    font-weight: 100;
 }
+
 #cards{
     padding: 1vw;    
 }
