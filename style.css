@@ -1,0 +1,42 @@
+@import url('recia.css');
+
+body {
+    font-family: Recia-Bold;
+    overflow-x: hidden;
+}
+
+
+footer{
+    font-family: Recia;
+}
+#cards{
+    padding: 1vw;
+}
+
+#titulo {
+    position: relative;
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+#titulo::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #ffcc00;
+    margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+

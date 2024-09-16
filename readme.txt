@@ -1,4 +1,4 @@
-rabajo final Trabajo Práctico Framework CSS
+Trabajo final Trabajo Práctico Framework CSS
 Prof. Oviedo Luna Página 1 de 1
 TRABAJO PRÁCTICO FRAMEWORK CSS
 Trabajo realizado utilizando SOLO la herramienta Bootstrap
