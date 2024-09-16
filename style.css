@@ -31,6 +31,19 @@ footer{
     margin: 10px auto;
 }
 
+.accordion-button {
+    background-color: #eeeeee;/* Color de fondo del botón */   
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #ffcc00; 
+    color: #e20b0b; 
+}
+
+.accordion-button:hover {   
+    color: #e20b0b; 
+}
+
 
 
 
