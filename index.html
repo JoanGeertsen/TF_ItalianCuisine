@@ -106,6 +106,39 @@
         </div>
       </div>
 
+      <div class="container mt-5">
+        <h3 class="display-4 text-center text-uppercase text-warning mb-4 mt-4 fw-bold">No te quedes sin lugar</h3>
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre completo" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu email" required>
+            </div>
+            <div class="mb-3">
+                <label for="telefono" class="form-label">Número de Teléfono</label>
+                <input type="tel" class="form-control" id="telefono" placeholder="Ingresa tu número de teléfono" required>
+            </div>
+            <div class="mb-3">
+                <label for="personas" class="form-label">Cantidad de Personas</label>
+                <input type="number" class="form-control" id="personas" placeholder="Número de personas" min="1" max="20" required>
+            </div>
+            <div class="mb-3">
+                <label for="fecha" class="form-label">Fecha de Reserva</label>
+                <input type="date" class="form-control" id="fecha" required>
+            </div>
+            <div class="mb-3">
+                <label for="hora" class="form-label">Hora de Reserva</label>
+                <input type="time" class="form-control" id="hora" required>
+            </div>
+            <button type="submit" class="btn btn-warning w-100 mb-3">Reservar</button>
+        </form>
+    </div>
+
+
+
       
       <footer class="bg-dark text-light py-4">
         <div class="container">
